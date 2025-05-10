@@ -1,0 +1,134 @@
+/* Hero específico para la página de funcionalidades */
+.hero {
+    /* Imagen de fondo específica para esta sección */
+    background-image: url('/assets/img/hero-funcionalidades-bg.png') !important;
+    /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+    background-size: cover;
+    /* Centra la imagen de fondo */
+    background-position: center;
+    /* Evita que la imagen se repita */
+    background-repeat: no-repeat !important;
+    /* Espaciado superior e inferior */
+    padding: 6rem 0;
+    /* Color de texto blanco */
+    color: white;
+    /* Alinea el texto en el centro */
+    text-align: center;
+    /* Establece la posición relativa para contenido sobrepuesto */
+    position: relative;
+}
+
+/* Estilo para la sección de información dentro del hero */
+.hero .info {
+    /* Establece un ancho máximo y centra el contenido */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo para los párrafos dentro del hero */
+.hero p {
+    /* Color de texto gris claro */
+    color: var(--light-gray);
+    /* Tamaño de fuente grande */
+    font-size: 2.5rem;
+}
+
+/* Estilo para el título principal dentro del hero */
+.hero h1 {
+    /* Tamaño de fuente grande */
+    font-size: 3rem;
+    /* Negrita para el título */
+    font-weight: 700;
+    /* Espaciado inferior para separar del siguiente elemento */
+    margin-bottom: 1rem;
+}
+
+/* Estilo para los subtítulos h2 */
+h2 {
+    /* Color personalizado (naranja) */
+    color: var(--orange-color);
+    /* Negrita para resaltar el texto */
+    font-weight: bold;
+}
+
+/* Párrafo dentro del hero con tamaño de fuente más pequeño */
+.hero p {
+    /* Tamaño de fuente ligeramente más pequeño que el principal */
+    font-size: 1.25rem;
+    /* Margen inferior para separación de otros elementos */
+    margin-bottom: 2rem;
+}
+
+/* Estilo para el botón primario dentro del hero */
+.hero .btn-primary {
+    /* Fondo del botón de color naranja */
+    background-color: var(--orange-color);
+    /* Color del texto del botón blanco */
+    color: white;
+    /* Espaciado interior del botón */
+    padding: 0.75rem 1.5rem;
+    /* Bordes redondeados */
+    border-radius: 0.5rem;
+    /* Eliminar subrayado en el texto del botón */
+    text-decoration: none;
+    /* Transición suave al cambiar el fondo */
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para el botón primario */
+.hero .btn-primary:hover {
+    /* Cambio de color al pasar el cursor por encima */
+    background-color: darken(var(--orange-color), 10%);
+}
+
+/* Sección de funcionalidades */
+.funcionalidades {
+    /* Fondo color gris claro */
+    background-color: #f9f9f9;
+    /* Espaciado superior e inferior */
+    padding: 4rem 0;
+    /* Alineación de texto en el centro */
+    text-align: center;
+}
+
+/* Títulos de la sección de funcionalidades */
+.funcionalidades h2 {
+    /* Tamaño grande de fuente */
+    font-size: 2.5rem;
+    /* Espaciado inferior */
+    margin-bottom: 2rem;
+}
+
+/* Estilo para las listas dentro de la sección de funcionalidades */
+.funcionalidades ul {
+    /* Elimina los puntos de la lista */
+    list-style: none;
+    /* Elimina el padding por defecto */
+    padding: 0;
+    /* Tamaño de fuente de la lista */
+    font-size: 1.2rem;
+}
+
+/* Estilo para los ítems de la lista de funcionalidades */
+.funcionalidades li {
+    /* Espaciado inferior entre los elementos de la lista */
+    margin-bottom: 1rem;
+}
+
+/* Estilo para las tarjetas de funcionalidades */
+.card-feature {
+    /* Transición suave para el cambio de escala */
+    transition: transform 0.3s ease;
+}
+
+/* Efecto hover en las tarjetas de funcionalidades */
+.card-feature:hover {
+    /* Agranda la tarjeta ligeramente al pasar el cursor */
+    transform: scale(1.05);
+}
+
+/* Efecto hover para el botón primario */
+.btn-primary:hover {
+    /* Cambia el color del texto a negro al hacer hover */
+    color: #000 !important;
+}

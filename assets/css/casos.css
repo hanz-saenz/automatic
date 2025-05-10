@@ -1,0 +1,41 @@
+/* Estilo para el botón principal */
+.btn-primary {
+    /* Establece el color de fondo usando una variable CSS para el color naranja */
+    background-color: var(--orange-color);
+
+    /* Establece el color del texto a blanco */
+    color: white;
+
+    /* Agrega relleno (padding) en el botón para darle más espacio alrededor del texto */
+    padding: 0.75rem 1.5rem;
+
+    /* Redondea las esquinas del botón */
+    border-radius: 0.5rem;
+
+    /* Elimina la subrayado en los enlaces si el botón es un enlace */
+    text-decoration: none;
+
+    /* Agrega una transición suave al cambiar el color de fondo (en hover) */
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto cuando el botón se coloca sobre él (hover) */
+.btn-primary:hover {
+    /* Oscurece el color de fondo en un 10% cuando el usuario pasa el mouse sobre el botón */
+    background-color: darken(var(--orange-color), 10%);
+}
+
+/* Estilo para los encabezados h2 */
+h2 {
+    /* Establece el color del texto del encabezado usando la variable CSS del color naranja */
+    color: var(--orange-color);
+
+    /* Hace que el texto sea más grueso */
+    font-weight: bold;
+}
+
+/* Estilo para el efecto hover en otros botones generales */
+.btn:hover {
+    /* Cambia el color del texto a negro cuando el usuario pasa el mouse sobre el botón */
+    color: #000;
+}

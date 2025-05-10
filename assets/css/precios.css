@@ -1,0 +1,8 @@
+/* Selecciona todos los elementos <h2> */
+h2 {
+    /* Aplica el color definido en la variable CSS --orange-color */
+    color: var(--orange-color); 
+    
+    /* Establece el peso de la fuente como negrita */
+    font-weight: bold; 
+}
